@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OUTUBRO ROSA</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, sans-serif;
+            background: #9e1360;
+            color: #dfdfdf;
+        }
+
+        header {
+            background: #880044;
+            color: #f888a9;
+            height: 90px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 50px;
+            font-weight: 900;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .noticias {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            border-radius: 25;
+        }
+
+        .noticia {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            padding: 18px;
+            background: #551228;
+            border-radius: 14;
+        }
+
+        .noticia img {
+            width: 260px;
+            height: 165px;
+            object-fit: cover;
+            border-radius: 14;
+        }
+
+        .conteudo h2 {
+            font-size: 23px;
+            font-weight: bold;
+            margin-bottom: 12px;
+            border-radius: 23;
+        }
+
+        .conteudo p {
+            font-size: 16px;
+            color: #ffb1d8;
+            line-height: 1.6;
+            border-radius: 23;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                height: 75px;
+            }
+
+            header h1 {
+                font-size: 25px;
+            }
+
+            main {
+                margin: 25px auto;
+                padding: 0 12px;
+            }
+
+            .noticia {
+                gap: 14px;
+                padding: 12px;
+            }
+
+            .noticia img {
+                width: 115px;
+                height: 120px;
+                border-radius: 20;
+            }
+
+            .conteudo h2 {
+                font-size: 18px;
+            }
+
+            .conteudo p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>OUTUBRO ROSA</h1>
+    </header>
+
+    <main>
+        <section class="noticias">
+
+            <article class="noticia">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKi4QksTCBy7M1xG3wnSLcUJUaGu9UvjmaDGq9_I-wlCDUexynAG7hKko&s=10" alt="Imagem">
+                <div class="conteudo">
+                    <h2>O OUTUBRO ROSA</h2>
+                    <p>O Outubro Rosa é uma campanha internacional de conscientização sobre a prevenção e o diagnóstico precoce do câncer de mama. Criado nos anos 90, o movimento tem como símbolo o laço rosa e acontece durante todo o mês de outubro. O objetivo é compartilhar informações, incentivar o autoexame e lembrar que o diagnóstico precoce aumenta em até 95% as chances de cura.</p>
+                </div>
+            </article>
+
+            <article class="noticia">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7zbm_lhQ_PEQWmjfDQgGf_Ub_O5gOtflHxphNuhRhDQ7-OpQDrXFD41w&s=10" alt="Imagem">
+                <div class="conteudo">
+                    <h2>CUIDE-SE</h2>
+                    <p>Outubro Rosa é sobre amor, cuidado e vida. É um lembrete de que se tocar é um ato de amor-próprio. Cuide-se, faça seus exames, converse com suas amigas, sua mãe, sua irmã. A prevenção é a nossa maior força. Vista essa causa, compartilhe informação e abrace quem está passando por essa luta. Juntas somos mais fortes!</p>
+                </div>
+            </article>
+
+            <article class="noticia">
+                <img src="https://picsum.photos/seed/noticia3/520/330" alt="Imagem">
+                <div class="conteudo">
+                    <h2>SOBRE OQUE É?</h2>
+                    <p>O que é o Outubro Rosa? É um alerta para todas as mulheres: a sua saúde importa. O câncer de mama é o tipo que mais afeta mulheres no mundo, mas quando descoberto cedo, tem tratamento. Não deixe para depois. Procure um médico, faça a mamografia e pratique o autoexame. Prevenir é um gesto de coragem.
+                        /p>
+                </div>
+            </article>
+
+        </section>
+    </main>
+
+</body>
+</html>
+
+
